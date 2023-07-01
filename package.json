@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "Demo code that implements fundamental flows of SSI (i.e: issuing credential, receiving & storing credential, verifying credential)",
 	"main": "index.js",
+	"engines": {
+		"node": ">=18.0.0"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
