@@ -1,0 +1,25 @@
+{
+	"name": "aries-javascript-demo",
+	"version": "1.0.0",
+	"description": "Demo code that implements fundamental flows of SSI (i.e: issuing credential, receiving & storing credential, verifying credential)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Abdur Rahman",
+	"license": "ISC",
+	"dependencies": {
+		"@aries-framework/anoncreds": "0.4.0",
+		"@aries-framework/anoncreds-rs": "0.4.0",
+		"@aries-framework/askar": "0.4.0",
+		"@aries-framework/core": "0.4.0",
+		"@aries-framework/indy-vdr": "0.4.0",
+		"@aries-framework/node": "0.4.0",
+		"@hyperledger/anoncreds-nodejs": "0.1.0",
+		"@hyperledger/aries-askar-nodejs": "0.1.0",
+		"@hyperledger/indy-vdr-nodejs": "0.1.0"
+	},
+	"overrides": {
+		"ref-napi": "npm:@2060.io/ref-napi"
+	}
+}
